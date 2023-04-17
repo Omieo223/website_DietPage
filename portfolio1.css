@@ -1,0 +1,236 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    background-image: url(https://cdn.pixabay.com/photo/2022/05/18/15/44/apple-7205616_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: antasy;
+}
+#navbar{
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: black;
+    box-shadow: 0 5px 5px -5 red;
+}
+#navbar ul{
+    display: flex;
+    margin: 10px 0 0px auto;
+    width: 100%;
+    /* width tu przesuwa w prawo jak damy mniej tym bardziej w prawo */
+    justify-content: space-evenly;
+    list-style: none;
+}
+#navbar ul li a{
+    margin-left: 3px;
+    color: white;
+    opacity: 1;
+    font-size: 1.2rem;
+    font-family: antasy;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: red;
+    opacity: 1;
+    text-decoration: underline;
+    transition: all 0.15s;
+}
+#intro-section{
+    height: 300px;
+    margin-top: 0;
+    background-image: url("https://images-prod.healthline.com/hlcmsresource/images/AN_images/health-benefits-of-apples-1296x728-feature.jpg");
+    background-size: cover;
+}
+#content-section{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    box-sizing: border-box;
+    display: flex;
+    margin: 20px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    /*text-align: justify;*/
+    text-indent: 10px;
+    word-spacing: small;
+}
+.content img {
+    max-width: 100%;
+    border: 2px solid #eb1919;
+    border-style: groove;
+    border-radius: 18px;
+}
+h1{
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 100px;
+    display:flex;
+    background-color:#eb1919;
+    background-size: cover;
+    margin: 0;
+    margin-top: 20px;
+    padding: 10px;
+}
+section{
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+.section-heading {
+    font-size: 2rem;
+    text-align: center;
+    border: 2px solid #eb1919;
+}
+.about-container {
+    display: flex;
+    justify-content: center;
+}
+ div.my-info ul li a{
+    display: flex;
+    font-size: solid 3rem;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    border: 5px solid red;
+} 
+div.my-info:hover{
+color: #eb1919;
+}
+h2{
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    display:flex;
+    background-color: #eb1919;
+    background-size: cover;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 10px;
+}
+#contact-section{
+    box-sizing: border-box;
+    background-color: black;
+    background-position: center center;
+    background-size: 100%;
+    padding: 0px;
+    height: 100%;
+}
+#contact-section h1{
+    color: white;
+    margin: 0;
+    background-color: #eb1919;
+    background-size: cover;
+    margin: 0;
+    margin-top: 20px;
+    padding: 10px;
+}
+#contact-section p a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 5px;
+    width: 100%;
+}
+#result{
+    padding: 5px;
+    border-radius: 18px;
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: solid 25px;
+}
+input{
+    background: linear-gradient(
+        to left,
+        rgba(255, 255, 255, 0.1),        
+        rgba(255, 255, 255, 0.25)
+    );
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0px 8px 24px 0 rgba(0, 0, 0, 0.3);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    transition:  box-shadow 0.3s, outline 0.3s;
+    position: relative;
+    float: right;
+    /*margin-bottom: 20px;*/
+}
+input:hover{
+    background-color: #a35050;
+}    
+.label{
+    margin-bottom: 10px;
+    /*background-color: red;*/
+    
+    
+}
+/* 
+output{
+    color:black;
+    text-decoration: solid;
+    font-size: 30px;
+    font-family: fantasy;
+    justify-content: center; 
+}
+.infoTab p {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+} */
+.infoTab a {
+    text-decoration: underline;
+    color: white; 
+    word-spacing: 8PX;
+    font-size: 20px;
+    margin-left: 40px;
+}
+button{
+    background: linear-gradient(
+        to left,
+        rgba(255, 255, 255, 0.1),        
+        rgba(255, 255, 255, 0.25)
+    );
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0px 8px 15px 0 rgba(0, 0, 0, 0.3);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 12px 30px;
+    transition:  box-shadow 0.3s, outline 0.3s;
+    margin-left: 55%;
+}
+.calc{
+    background: linear-gradient(
+        to left,
+        rgba(240, 9, 9, 0.1),        
+        rgba(255, 255, 255, 0.25)
+    );
+    border: none;
+    padding: 10px;
+    border-radius: 18px; 
+    box-shadow: 0px 8px 15px 0 rgba(0, 0, 0, 0.3);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 20px 10px;
+    transition:  box-shadow 0.3s, outline 0.3s;
+}
+button:hover {
+    background-color: #a35050;
+}
